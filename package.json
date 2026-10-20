@@ -1,0 +1,17 @@
+{
+  "name": "gabi-unite-build-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gabi Unite Android wrapper",
+  "scripts": {
+    "build": "node -e \"const fs=require('fs');fs.mkdirSync('dist',{recursive:true});fs.cpSync('www','dist',{recursive:true})\"",
+    "android:sync": "cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}

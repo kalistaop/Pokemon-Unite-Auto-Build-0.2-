@@ -1,0 +1,6 @@
+{
+  "appId": "app.gabiunite.buildlab",
+  "appName": "Gabi Unite",
+  "webDir": "dist",
+  "server": { "androidScheme": "https" }
+}
